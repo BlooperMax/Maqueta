@@ -1,0 +1,141 @@
+h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 8px;
+    color: #236f8b;
+}
+
+section{
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: max-content ;
+    padding: 8px;
+}
+
+.area{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: -16px; 
+}
+
+.img-p{
+    margin: 16px auto;
+    /* margin-bottom: 16px; */
+
+    color: #072642;
+    text-align: justify ;
+    width: 75vw;
+    line-height: 2rem;
+}
+
+.box-p{
+    margin: 0 auto;
+    text-align: justify ;
+    width: 75vw;
+    line-height: 2rem;
+}
+
+.imgbg{
+    /* padding-top: 16px; */
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgbg1{
+    background-image: url(../assets/river-forest-sunset-landscape-art.jpg);
+}
+#imgbg2{
+    background-image: url(../assets/buho.jpg);
+}
+
+.box{
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+    width: 100%;
+    height: auto;
+    background:#072642 ;
+}
+
+/* carousel */
+
+
+#carousel{
+    width: 100%;
+    position: relative;
+    margin:0 auto;
+    box-sizing: border-box;
+    background: linear-gradient(0deg,#d5b7a0,#072642);
+}
+
+#carousel-container{
+    width: max-content;
+    margin: 0 auto;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#img {
+    vertical-align: middle;
+    width: 1200px;
+    max-width: calc(100vw - 8px);
+    margin: 0 auto;
+    text-align: center;
+    transition: all 1200ms;
+}
+
+.opacity1{
+    opacity: 1 ;
+}
+
+.opacity0{
+    opacity: 0 ;
+}
+
+.number-text{
+    position: absolute;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.text{
+    display: block;
+    position: absolute;
+    color: white;
+    width: 200px;
+    border-radius: 6px 6px 0px  0px ;
+    background: rgba(204, 204, 204, 0.5);
+    left: calc(50% - 124px)  ;
+    text-align: center;
+    bottom: 0;
+    padding: 16px;
+    padding-left: 24px ;
+    padding-right: 24px ;
+    font-size: 24px;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
