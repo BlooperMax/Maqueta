@@ -45,7 +45,7 @@ module.exports = {
                         loader:'file-loader',
                         options:{
                             esModule:false,
-                            name:'assets/[name].[ext]'
+                            name:'assets/img/[name].[ext]'
                         }
                     }
                 ]

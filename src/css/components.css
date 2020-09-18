@@ -1,8 +1,9 @@
 h2{
+    max-width: calc(100vw - 24px);
     text-align: center;
     letter-spacing: 1.5px;
-    margin: 8px;
-    color: #236f8b;
+    margin: 8px auto;
+    color: #871325;
 }
 
 section{
@@ -10,6 +11,10 @@ section{
     margin-bottom: 16px;
     width: max-content ;
     padding: 8px;
+}
+
+p{
+    line-height: 2.5rem !important;
 }
 
 .area{
@@ -23,17 +28,17 @@ section{
     margin: 16px auto;
     /* margin-bottom: 16px; */
 
-    color: #072642;
+    color: #fff;
     text-align: justify ;
     width: 75vw;
-    line-height: 2rem;
 }
 
 .box-p{
     margin: 0 auto;
+    margin-bottom: 16px;
     text-align: justify ;
     width: 75vw;
-    line-height: 2rem;
+
 }
 
 .imgbg{
@@ -47,18 +52,49 @@ section{
 }
 
 #imgbg1{
-    background-image: url(../assets/river-forest-sunset-landscape-art.jpg);
+    background-image: url(../assets/img/papa1.jpg);
 }
 #imgbg2{
-    background-image: url(../assets/buho.jpg);
+    background-image: url(../assets/img/papa2.jpg);
+}
+#imgbg3{
+    background-image: url(../assets/img/lloracion1.jpg);
+}
+#imgbg4{
+    background-image: url(../assets/img/lloracion2.jpg);
+}
+#imgbg5{
+    background-image: url(../assets/img/bf1.jpg);
+}
+#imgbg6{
+    background-image: url(../assets/img/bf2.jpg);
+}
+#imgbg7{
+    background-image: url(../assets/img/bf3.jpg);
+}
+#imgbg8{
+    background-image: url(../assets/img/14f.jpg);
+}
+#imgbg9{
+    background-image: url(../assets/img/mc1.jpg);
+}
+#imgbg10{
+    background-image: url(../assets/img/mc2.jpg);
+}
+#imgbg11{
+    background-image: url(../assets/img/final1.jpg);
+}
+#imgbg12{
+    background-image: url(../assets/img/final2.jpg);
 }
 
 .box{
-    padding-top: 16px ;
-    padding-bottom: 16px ;
+    padding-top: 24px ;
+    padding-bottom: 24px ;
     width: 100%;
     height: auto;
-    background:#072642 ;
+    background:linear-gradient(90deg,#0c0d0e,#28292b) ;
+    color: #fff;
 }
 
 /* carousel */
@@ -66,10 +102,11 @@ section{
 
 #carousel{
     width: 100%;
+    height: max-content;
     position: relative;
     margin:0 auto;
     box-sizing: border-box;
-    background: linear-gradient(0deg,#d5b7a0,#072642);
+    background: linear-gradient(0deg,#0c0d0e,#28292b) ;
 }
 
 #carousel-container{
